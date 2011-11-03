@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/cmdstring
+# catalog-date 2008-08-18 10:38:42 +0200
+# catalog-license lppl
+# catalog-version 1.1
 Name:		texlive-cmdstring
 Version:	1.1
 Release:	1
@@ -39,6 +45,7 @@ Extracts the letters of a command's name (e.g., foo for command
 %doc %{_texmfdistdir}/doc/latex/cmdstring/README
 %doc %{_texmfdistdir}/doc/latex/cmdstring/cmdstring.pdf
 %doc %{_texmfdistdir}/doc/latex/cmdstring/cmdstring.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ Extracts the letters of a command's name (e.g., foo for command
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
