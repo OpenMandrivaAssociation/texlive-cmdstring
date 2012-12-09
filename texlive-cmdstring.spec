@@ -46,3 +46,18 @@ Extracts the letters of a command's name (e.g., foo for command
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-2
++ Revision: 750264
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
++ Revision: 718078
+- texlive-cmdstring
+- texlive-cmdstring
+- texlive-cmdstring
+- texlive-cmdstring
+- texlive-cmdstring
+
