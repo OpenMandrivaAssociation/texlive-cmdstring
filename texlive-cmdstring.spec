@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-cmdstring
 Version:	1.1
-Release:	9
+Release:	10
 Summary:	Get command name reliably
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cmdstring
