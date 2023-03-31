@@ -1,6 +1,6 @@
 Name:		texlive-cmdstring
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Get command name reliably
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cmdstring
