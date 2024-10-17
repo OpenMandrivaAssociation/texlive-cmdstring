@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Get command name reliably
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cmdstring
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/cmdstring
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdstring.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdstring.doc.r%{version}.tar.xz
